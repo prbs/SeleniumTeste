@@ -1,0 +1,162 @@
+[Header]\r\n2017-10-05 10:12:50,573 [1] INFO  main.Principal  INICIANDO TESTES AUTOMATIZADOS NAORA_HOMOLOG
+2017-10-05 10:12:50,585 [1] INFO  main.Principal  deletando usuario  de teste
+2017-10-05 10:12:50,605 [1] INFO  main.Principal  abrindo conexao para deletar usuario  de teste
+2017-10-05 10:12:51,177 [1] INFO  main.Principal  executando procedure para deletar usuario  de teste
+2017-10-05 10:12:52,250 [1] INFO  main.Principal   procedure executada para deletar usuario  de teste
+2017-10-05 10:12:52,250 [1] INFO  main.Principal  delete de usuario de teste finalizado
+2017-10-05 10:12:52,251 [1] INFO  main.Principal  iniciando cadastro de usuario
+2017-10-05 10:13:07,830 [1] INFO  main.Principal  cadastro de usuario finalizado
+2017-10-05 10:13:07,830 [1] INFO  main.Principal  iniciando login de usuario
+2017-10-05 10:13:08,746 [1] INFO  main.Principal  finalizado login de usuario
+2017-10-05 10:13:08,746 [1] INFO  main.Principal  iniciando acesso ao perfil usuario menu sanduiche
+2017-10-05 10:13:12,200 [1] INFO  main.Principal  finalizado acesso ao perfil usuario menu sanduiche
+2017-10-05 10:13:12,200 [1] INFO  main.Principal  iniciando edicao usuario
+2017-10-05 10:13:18,634 [1] INFO  main.Principal  finalizado edicao usuario
+2017-10-05 10:13:18,634 [1] INFO  main.Principal  iniciando confirmacao email usuario
+2017-10-05 10:13:18,724 [1] INFO  main.Principal  finalizado confirmacao email usuario
+2017-10-05 10:13:18,724 [1] INFO  main.Principal  iniciando click na logo home para ir para a home
+2017-10-05 10:13:19,699 [1] INFO  main.Principal  finalizado click na logo home para ir para a home
+2017-10-05 10:13:19,699 [1] INFO  main.Principal  iniciando buscas variadas com agendamento
+2017-10-05 10:13:19,701 [1] INFO  main.Principal  iniciando secao de busca nome profissional
+2017-10-05 10:13:19,702 [1] INFO  main.Principal  -- iniciando busca de campos de busca
+2017-10-05 10:13:19,759 [1] INFO  main.Principal  -- finalizado busca de campos de busca
+2017-10-05 10:13:19,759 [1] INFO  main.Principal  -- iniciando busca nome profissional
+2017-10-05 10:13:20,381 [1] INFO  main.Principal  -- finalizado busca nome profissional
+2017-10-05 10:13:20,382 [1] INFO  main.Principal  -- iniciando agendamento
+2017-10-05 10:13:35,804 [1] INFO  main.Principal  -- finalizado agendamento
+2017-10-05 10:13:35,805 [1] INFO  main.Principal  -- iniciando acesso ao perfil paciente menu sanduiche
+2017-10-05 10:13:39,082 [1] ERROR main.Principal  Erro ao fazer a secao de busca nome profissionalunknown error: Element <i aria-expanded="false" aria-haspopup="true" class="pointer fa fa-bars dropdown-toggle" data-toggle="dropdown" id="dropdownMenu2" type="button"></i> is not clickable at point (1243, 10). Other element would receive the click: <div class="inital-loading">...</div>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+2017-10-05 10:13:39,084 [1] INFO  main.Principal  iniciando secao de busca nome profissional localidade
+2017-10-05 10:13:39,250 [1] INFO  main.Principal  -- iniciando busca de campos de busca
+2017-10-05 10:13:40,539 [1] INFO  main.Principal  -- finalizado busca de campos de busca
+2017-10-05 10:13:40,540 [1] INFO  main.Principal  -- iniciando busca nome profissional e localidade
+2017-10-05 10:13:41,431 [1] INFO  main.Principal  -- finalizado busca nome profissional e localidade
+2017-10-05 10:13:41,432 [1] INFO  main.Principal  -- iniciando agendamento
+2017-10-05 10:13:56,774 [1] INFO  main.Principal  -- finalizado agendamento
+2017-10-05 10:13:56,774 [1] INFO  main.Principal  -- iniciando acesso ao perfil paciente menu sanduiche
+2017-10-05 10:13:59,921 [1] ERROR main.Principal  Erro ao fazer a secao de busca nome profissional localidadeunknown error: Element <i aria-expanded="false" aria-haspopup="true" class="pointer fa fa-bars dropdown-toggle" data-toggle="dropdown" id="dropdownMenu2" type="button"></i> is not clickable at point (1243, 10). Other element would receive the click: <div class="inital-loading">...</div>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+2017-10-05 10:13:59,922 [1] INFO  main.Principal  iniciando secao de  busca nome profissional localidade tipo convenio
+2017-10-05 10:14:00,415 [1] INFO  main.Principal  -- iniciando busca de campos de busca
+2017-10-05 10:14:10,785 [1] ERROR main.Principal  Erro ao fazer a secao de busca nome profissional localidadeTimed out after 10 seconds
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.div-campos-busca-home"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   em OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   em OpenQA.Selenium.By.FindElement(ISearchContext context)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   em OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   em OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+2017-10-05 10:14:10,795 [1] INFO  main.Principal  iniciando secao de  busca nome profissional localidade tipo convenio
+2017-10-05 10:14:11,456 [1] INFO  main.Principal  -- iniciando busca de campos de busca
+2017-10-05 10:14:11,508 [1] INFO  main.Principal  -- finalizado busca de campos de busca
+2017-10-05 10:14:12,222 [1] INFO  main.Principal  -- iniciando agendamento
+2017-10-05 10:14:52,684 [1] ERROR main.Principal  Erro ao fazer a secao de busca nome profissional localidadeTimed out after 25 seconds
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"btn-agendar-consulta"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   em OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   em OpenQA.Selenium.By.FindElement(ISearchContext context)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   em OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   em OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+2017-10-05 10:14:52,926 [1] INFO  main.Principal  finalizado buscas variadas com agendamento
+[Footer]\r\n[Header]\r\n2017-10-06 09:27:20,848 [1] INFO  main.Principal  INICIANDO TESTES AUTOMATIZADOS NAORA_HOMOLOG
+2017-10-06 09:27:20,864 [1] INFO  main.Principal  deletando usuario  de teste
+2017-10-06 09:27:20,958 [1] INFO  main.Principal  abrindo conexao para deletar usuario  de teste
+2017-10-06 09:27:21,945 [1] INFO  main.Principal  executando procedure para deletar usuario  de teste
+2017-10-06 09:27:23,180 [1] INFO  main.Principal   procedure executada para deletar usuario  de teste
+2017-10-06 09:27:23,180 [1] INFO  main.Principal  delete de usuario de teste finalizado
+2017-10-06 09:27:23,180 [1] INFO  main.Principal  iniciando cadastro de usuario
+2017-10-06 09:27:53,472 [1] ERROR main.Principal  Erro ao cadastrar usuário Referência de objeto não definida para uma instância de um objeto.
+2017-10-06 09:27:53,488 [1] INFO  main.Principal  iniciando login de usuario
+2017-10-06 09:28:03,858 [1] ERROR main.Principal  Erro ao logarTimed out after 10 seconds
+OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   em OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   em OpenQA.Selenium.By.FindElement(ISearchContext context)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   em OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   em OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+2017-10-06 09:28:03,874 [1] INFO  main.Principal  iniciando acesso ao perfil usuario menu sanduiche
+2017-10-06 09:28:17,332 [1] ERROR main.Principal  Erro ao acessar perfil paciente menu sanduicheTimed out after 10 seconds
+OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   em OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   em OpenQA.Selenium.By.FindElement(ISearchContext context)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   em OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   em OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+2017-10-06 09:28:17,332 [1] INFO  main.Principal  iniciando edicao usuario
+2017-10-06 09:28:27,701 [1] ERROR main.Principal  Erro ao editar usuarioTimed out after 10 seconds
+OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   em OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   em OpenQA.Selenium.By.FindElement(ISearchContext context)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   em OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   em OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+2017-10-06 09:28:27,717 [1] INFO  main.Principal  iniciando confirmacao email usuario
+2017-10-06 09:28:27,795 [1] INFO  main.Principal  finalizado confirmacao email usuario
+2017-10-06 09:28:27,795 [1] INFO  main.Principal  iniciando click na logo home para ir para a home
+2017-10-06 09:28:38,233 [1] ERROR main.Principal  Erro ao clicar na logo HomeTimed out after 10 seconds
+OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   em OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   em OpenQA.Selenium.By.FindElement(ISearchContext context)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   em OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   em OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+2017-10-06 09:28:38,248 [1] INFO  main.Principal  iniciando buscas variadas com agendamento
+2017-10-06 09:28:38,255 [1] INFO  main.Principal  iniciando secao de busca nome profissional
+2017-10-06 09:28:38,257 [1] INFO  main.Principal  -- iniciando busca de campos de busca
+2017-10-06 09:28:48,787 [1] ERROR main.Principal  Erro ao fazer a secao de busca nome profissionalTimed out after 10 seconds
+OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   em OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   em OpenQA.Selenium.By.FindElement(ISearchContext context)
+   em OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   em OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   em OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+2017-10-06 09:28:48,787 [1] INFO  main.Principal  iniciando secao de busca nome profissional localidade
